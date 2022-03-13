@@ -1,29 +1,32 @@
-- name: TSR AudioLink Core
-  link: https://github.com/VRLabs/TSR-AudioLink-Core
-  description: Base support for AudioLink
-  category: Effects
-  
-- name: TSR Rim Light
-  link: https://github.com/VRLabs/TSR-Rim-Light
-  description: Adds rim light options
-  category: Lighting
-  
-- name: TSR Detail Map
-  link: https://github.com/VRLabs/TSR-Detail-Map
-  description: Adds support for detail mapping
-  category: Textures and Inputs
-  
-- name: TSR Toon Highlights
-  link: https://github.com/VRLabs/TSR-Toon-Highlights
-  description: Adds an option to make stylized highlights
-  category: Lighting
-  
-- name: TSR Highlight Pattern
-  link: https://github.com/VRLabs/TSR-Highlight-Pattern
-  description: Adds a mask for the highlights
-  category: Lighting
-  
-- name: TSR Fake Direct Specular
-  link: https://github.com/VRLabs/TSR-Fake-Direct-Specular
-  description: Adds a new entry on the direct specular type options
-  category: Lighting
+- name: VRLabs
+  link: https://github.vrlabs.dev
+  modules:
+    - name: TSR AudioLink Core
+      link: https://github.com/VRLabs/TSR-AudioLink-Core
+      description: Base support for AudioLink
+      category: AudioLink
+
+    - name: TSR Rim Light
+      link: https://github.com/VRLabs/TSR-Rim-Light
+      description: Adds rim light options
+      category: Lighting
+
+    - name: TSR Detail Map
+      link: https://github.com/VRLabs/TSR-Detail-Map
+      description: Adds support for detail mapping
+      category: Textures and Inputs
+
+    - name: TSR Toon Highlights
+      link: https://github.com/VRLabs/TSR-Toon-Highlights
+      description: Adds an option to make stylized highlights
+      category: Lighting
+
+    - name: TSR Highlight Pattern
+      link: https://github.com/VRLabs/TSR-Highlight-Pattern
+      description: Adds a mask for the highlights
+      category: Lighting
+
+    - name: TSR Fake Direct Specular
+      link: https://github.com/VRLabs/TSR-Fake-Direct-Specular
+      description: Adds a new entry on the direct specular type options
+      category: Lighting
