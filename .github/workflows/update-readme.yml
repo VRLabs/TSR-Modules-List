@@ -7,14 +7,15 @@ on:
       - 'Modules/**.yml'
 jobs:
   build:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
+
       - name: Build MD file
-        run: | node .github/build-md.js
-        
+        run: | 
+          node .github/build-md.js
+
       - name: Commit file
         uses: swinton/commit@v2.x
         env:
