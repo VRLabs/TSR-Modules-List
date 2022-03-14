@@ -24,7 +24,12 @@ try {
         }
     });
 
-    elements.sort((a, b) => (a.module.category > b.module.category) ? 1 : -1);
+    elements.sort((a, b) => {
+        if (a.module.category > b.module.category) return 1;
+        if (a.module.category < b.module.category) return -1;
+        if(a.module.name > b.module.name) return 1;
+        else return -1;
+    });
 
     var content = fs.readFileSync('header.md', 'utf8');
 
