@@ -43,5 +43,5 @@
       
     - name: TSR UV 123
       link: https://github.com/VRLabs/TSR-UV123
-      description: Adds support to uvs 1 to 3 for textures
+      description: Adds support to uvs 1/2/3 for textures
       category: Lighting
