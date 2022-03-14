@@ -15,6 +15,7 @@ jobs:
 
       - name: Build MD file
         run: | 
+          npm install js-yaml
           node .github/build-md.js
 
       - name: Commit file
