@@ -35,6 +35,11 @@
       link: https://github.com/VRLabs/TSR-Emission
       description: Adds emission support
       category: Effects
+    
+    - name: TSR Dissolve
+      link: https://github.com/VRLabs/TSR-Dissolve
+      description: Adds a section for a dissolve effect
+      category: Effects
       
     - name: TSR AudioLink Emission
       link: https://github.com/VRLabs/TSR-AudioLink-Emission
@@ -44,4 +49,11 @@
     - name: TSR UV 123
       link: https://github.com/VRLabs/TSR-UV123
       description: Adds support to uvs 1/2/3 for textures
-      category: Lighting
+      category: Textures and inputs
+     
+    - name: TSR Object Space UVs
+      link: https://github.com/VRLabs/TSR-Object-Space-UVs
+      description: Provides Object Space UVs
+      category: Textures and inputs
+    
+    
